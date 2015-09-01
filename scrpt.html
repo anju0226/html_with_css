@@ -1,0 +1,60 @@
+<html>
+<head>
+<script language="javascript">
+		  
+		    document.onload(greet());		  
+		    
+	/*function check(){
+		  var num = prompt("enter a number:");
+		  document.write(num);
+		  if(num>100)
+		     {
+			 alert(num + " is greater than 100:");
+			 }
+			 
+			 else{
+			 alert(num + " is not greater than 100:");
+			 
+			 }*/
+			 
+			
+			 function greet(){
+			 var d = new Date();
+			// document.write(d);
+			 
+			 var name = prompt("enter a name:");
+			 var time=d.getHours();
+			 var day = d.getDays();
+			 alert(day);
+			 if(time<12){
+			  
+			  document.write("Hi " + name +" Good morning");
+			  
+			 }
+			 
+			 else 
+			 
+			 document.write("Hi "+ name + "Good Afternoon:");
+			 
+			 }
+			 
+			 switch(day){
+			 alert("hello");
+			 
+			  case 0:document.write("Oh I wish this day never ends"); break;
+			  case 1:document.write("Oh I hate monday"); break;
+			  case 2:document.write("Oh when will friday come"); break;
+			  case 3:document.write("Still 2 more days"); break;
+			  case 4:document.write("Yes.Now only 1 more day"); break;
+			  case 5:document.write("Finally yaay Friday"); break;
+			  default: document.write("Hello"); 
+			 }
+			 
+			 
+			 
+</script>
+</head>
+
+<body>
+</body>   
+</html>
